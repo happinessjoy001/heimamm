@@ -400,5 +400,30 @@ img {
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?wi4gjh');
+  src:  url('../fonts/icomoon.eot?wi4gjh#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?wi4gjh') format('truetype'),
+    url('../fonts/icomoon.woff?wi4gjh') format('woff'),
+    url('../fonts/icomoon.svg?wi4gjh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+@media screen and (min-width: 750px){
+    html{
+        font-size: 37.5px !important;
+    }
+}
+body{
+    min-width: 320px;
+    max-width: 750px;
+    margin: 0 auto;
+    width: 20rem;
+    background-color: #f1f3f7;
 }

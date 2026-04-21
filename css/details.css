@@ -1,0 +1,141 @@
+.wrap {
+  position: relative;
+  background-color: #fff;
+  padding-bottom: 0.2667rem;
+}
+.wrap .return {
+  position: absolute;
+  top: 0.1333rem;
+  left: 0.1333rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: 'icomoon';
+  color: #333333;
+}
+.wrap header {
+  width: 100%;
+  height: 2.1333rem;
+  line-height: 2.1333rem;
+  text-align: center;
+  color: #1B1B1B;
+  font-size: 0.9333rem;
+  border-bottom: 0.0267rem solid #ededed;
+}
+.title {
+  padding-left: 0.5333rem;
+  width: 100%;
+  height: 2.1333rem;
+  line-height: 2.1333rem;
+  font-size: 0.8rem;
+}
+.content {
+  padding: 0.5333rem;
+  width: 100%;
+  background-color: #fff;
+}
+.content .question {
+  margin-bottom: 0.5333rem;
+  overflow: hidden;
+  font-size: 0.7467rem;
+}
+.content .question div[class^='tips'] {
+  width: 2.8533rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  border-radius: 0.2667rem;
+}
+.content .question .tips1 {
+  margin: 0.5333rem auto;
+  float: left;
+  border: 1px solid #3bccc9;
+  color: #3bccc9;
+}
+.content .question .tips2 {
+  margin: 0.5333rem 12.3333rem 0.5333rem 0;
+  float: right;
+  border: 1px solid #43ceb1;
+  color: #43ceb1;
+}
+.content .ans {
+  margin-bottom: 0.7333rem;
+  padding-bottom: 0.8rem;
+  position: relative;
+  border-top: 1px solid #f3f3f3;
+}
+.content .ans .title {
+  position: absolute;
+  top: -1.0933rem;
+  left: 6.5867rem;
+  background-color: #fff;
+  width: 5.3333rem;
+  height: 2.067rem;
+  font-size: 0.6933rem;
+}
+.content .ans .title i {
+  color: #54c8e9;
+}
+.content .ans p {
+  text-indent: 2em;
+  margin-top: 1.3333rem;
+  font-size: 0.5867rem;
+  color: #868686;
+}
+.content:nth-child(3) .tip {
+  margin-top: 1.333rem;
+  font-size: 0.6667rem;
+  color: #77d3e8;
+}
+.content:nth-child(3) .demo {
+  text-indent: 2em;
+  margin-top: 0.2033rem;
+  font-size: 0.5867rem;
+  color: #868686;
+}
+.content:nth-child(3) .demo_ {
+  margin-bottom: 1rem;
+  overflow: scroll;
+  text-indent: 0;
+  padding: 0.5333rem;
+  width: 100%;
+  height: 5.08rem;
+  background-color: #e8e8e8;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 3.0133rem;
+  background-color: #fff;
+  border: 2px solid #f2f4f7;
+}
+.footer ul {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.footer ul li {
+  width: 25%;
+  height: 100%;
+}
+.footer ul li a {
+  color: #868686;
+  font-size: 0.7467rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.footer ul li a img {
+  margin-right: 0.2667rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  vertical-align: middle;
+}

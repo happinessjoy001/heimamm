@@ -1,0 +1,55 @@
+.wrap {
+  position: relative;
+  background-color: #fff;
+  padding-bottom: 0.2667rem;
+}
+.wrap .return {
+  position: absolute;
+  top: 0.1333rem;
+  left: 0.1333rem;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: 'icomoon';
+  color: #333333;
+}
+.wrap header {
+  width: 100%;
+  height: 2.1333rem;
+  line-height: 2.1333rem;
+  text-align: center;
+  color: #1B1B1B;
+  font-size: 0.9333rem;
+  border-bottom: 0.0267rem solid #ededed;
+}
+.content {
+  width: 100%;
+  height: 31.92rem;
+  background-color: #fff;
+}
+.content ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+.content ul li {
+  width: 6.6667rem;
+  height: 6.6667rem;
+  background-color: #dcf8ff;
+  border: 1px dashed #a2cffd;
+}
+.content ul li a {
+  position: relative;
+  width: 6.6667rem;
+  height: 6.6667rem;
+  text-decoration: none;
+}
+.content ul li a .demo {
+  position: absolute;
+  top: 4.4rem;
+  left: 1.5rem;
+  color: #3ec8d3;
+  font-size: 0.8533rem;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,
+    user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>详情页</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/details.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+</head>
+<body>
+     <section class="wrap">
+         <!-- 头部区域 -->
+         <a href="simu.html" class="return"></a>
+        <header class="header">专项面试</header>
+    </section>
+
+    <div class="title">HTML/CSS</div>
+
+    <!-- 详情内容 开始 -->
+    <div class="content">
+        <!-- 问题模块 -->
+        <div class="question">
+            <p>现有字典 d={‘a’:24，’g’:52，’l’:12’k’:33}请按字 典中的 value 值进行排序？ </p>
+            <div class="tips1">名企</div>
+            <div class="tips2">简单</div>
+        </div>
+
+        <!-- 答案解析模块 -->
+         <div class="ans">
+            <div class="title"><i>·</i> 答案解析 <i>·</i></div>
+            <p>	面向过程就是分析出解决问题所需的步骤，然后用函数把这些步骤一步一步实现，使用时一次调用即可。例如，一辆汽车用面向过程去思考他应该是这样的，如何启动汽车，如何起步，加速，刹车，熄火等操作，而汽车在这里并不是我们所关心的。</p>
+         </div>
+
+         <!-- 答题技巧模块 -->
+          <div class="ans">
+            <div class="title"><i>·</i> 答题技巧 <i>·</i></div>
+            <p>	 这个问题没有准确答案，面试官主要考察的是面试者对于该问题的理解，因此，面试者在回答这道面试题时应在回答理论后再结合相应的例子说明。</p>
+         </div>
+
+         <!-- 问题扩展模块 -->
+          <div class="ans">
+            <div class="title"><i>·</i> 问题扩展 <i>·</i></div>
+            <div class="tip">扩展1</div>
+         
+         <p class="demo">  ArrayList和Vector的性能解析</p>
+       <p class="demo">ArrayList比Vector的性能高主要体现在两个方面：</p> 
+       <p class="demo">（1）Vecotr是多线程安全的，而ArrayList不是，这个可以从源码中看出，Vector类中的方法很多有synchronized进行修饰，这样就导致了Vector效率低于ArrayList。</p>
+       <p class="demo">（2）Vecotr和ArrayList的底层实现也是基于Object，但是空间不足时，两个类的增加方式是不同的。通常情况下，Vecotr增加原来空间的一倍，ArrayList增加原来空间的50%。因此，在同等条件下，ArrayList扩容量小于Vector，在性能上更高一些。</p>
+        <p class="demo_">//1.直接设置相应Activity的class来启动新的Activity Intent 
+intent=new Intent(this,OtherActivity.class); startActivity(intent);<br>
+ // 2.或者通过设置包名和全类名来启动新的Activity Intent intent=new Intent(); intent.setClassName("cn.itcast.activity","cn.itcast.activity.OtherActivity"); 
+startActivity(intent)</p>
+    
+    </div>
+    </div>
+    <!-- 详情内容 结束 -->
+
+     <!-- 底部区域 start -->
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="icons/五角星.png" alt="">
+                        收藏
+                    </a>
+                </li>
+                
+                <li>
+                    <li>
+                    <a href="#">
+                        <img src="icons/笑脸.png" alt="">
+                       正确
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="icons/哭脸.png" alt="">
+                    错误
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="icons/题目总数.png" alt="">
+                        <i>4</i>/100
+                    </a>
+                </li>
+                </li>
+            </ul>
+        </div>
+    <!-- 底部区域 end -->
+    <script src="js/swiper.min.js"></script>
+     <script src="js/flexible.js"></script>
+</body>
+</html>
